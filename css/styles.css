@@ -97,3 +97,18 @@ a {
 .padNav li a:hover {
 	color: #DDA703;
 }
+.scroll-nav {
+	clear: both;
+    float: left;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.foot {
+	background-color: #2F2F2F;
+	width: 100%;
+	height: 100px;
+	padding: 0;
+	margin: 0;
+}
