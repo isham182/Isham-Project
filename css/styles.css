@@ -23,10 +23,7 @@ body {
 		margin: 0 auto;
     	vertical-align: middle;
     	text-align: center;
-    	display: -webkit-inline-box;
-    	display: inline-flex;*/
-
-    }
+}
 
 h1 {
 	color: #FFFFFF;
@@ -40,7 +37,8 @@ h1 {
 }
 
 .border {
-	border-bottom: 2px solid #DDA703
+	padding-bottom: 3px;
+	border-bottom: 2px solid #DDA703;
 }
 
 .titleMinor {
@@ -129,6 +127,74 @@ a {
     vertical-align: middle;
 }
 
+.fixedNav {
+	height: 80px;
+	padding-left: 50px;
+    background-color: #fefefe;
+    border: 1px solid rgba(158, 158, 158, 0.38);
+}
+
+.fixedNav div h3 {
+	font-size: 2.2em;
+    padding-top: 3px;
+}
+
+.padFaFixed {
+	display: -webkit-inline-box;
+    display: inline-flex;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 26px;
+    margin-left: 10%;
+    font-size: 1.7em;	
+}
+
+.padFaFixed li a {
+	font-size: 24px;
+}
+
+.padFaFixed li a:hover {
+	color: #DDA703;
+}
+
+.padNavFixed {
+	display: -webkit-inline-box;
+    display: inline-flex;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 26px;
+    margin-left: 10%;
+    font-size: 1.7em;
+}
+
+.padNavFixed li a {
+	margin: 0 10px 0 10px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	list-style: none outside none;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.padNavFixed li a:hover {
+	color: #DDA703;
+}
+
+.left {
+	float: left;
+}
+
+.leftPad {
+	float: left;
+}
+
+.leftPad li a {
+	color: black;
+}
+
+.left li a {
+	color: black;
+}
+
 .img-hand {
 	cursor: pointer;
 }
@@ -160,8 +226,11 @@ a {
 
 .social-icon-footer li a {
 	color: #FFFFFF;
-	font-size: 32px;
-	
+	font-size: 32px;	
+}
+
+.social-icon-footer li a:hover {
+	color: #DDA703;
 }
 
 .copyright {
