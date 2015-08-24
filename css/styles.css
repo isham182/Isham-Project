@@ -74,6 +74,21 @@ a {
     -webkit-transition: all 0.3s ease-in-out 0s;
 }
 
+.padNav li a:active {
+	color: #DDA703;
+}
+
+.nav li a.current {
+	color: #DDA703;
+}
+
+p a {
+	list-style: none outside none;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+}
+
 .padFa {
 		display: -webkit-inline-box;
 		display: inline-flex;
@@ -128,7 +143,9 @@ a {
 }
 
 .fixedNav {
+	display: block;
 	height: 80px;
+	width: 100%;
 	padding-left: 50px;
     background-color: #fefefe;
     border: 1px solid rgba(158, 158, 158, 0.38);
@@ -137,6 +154,20 @@ a {
 .fixedNav div h3 {
 	font-size: 2.2em;
     padding-top: 3px;
+}
+
+nav {
+	z-index: 500;
+}
+
+.nav-placeholder{
+	margin: 0 0 40px 0;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	width: 100%
 }
 
 .padFaFixed {
@@ -199,6 +230,18 @@ a {
 	cursor: pointer;
 }
 
+.projects p a {
+	list-style: none outside none;
+	text-decoration: none;
+	font-size: 1.2em;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+}
+
+.projects p a:hover {
+	color: #DDA703;	
+}
+
 .foot {
 	background-color: #2F2F2F;
 	width: 100%;
@@ -208,7 +251,7 @@ a {
 }
 
 .featured {
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 .foot div p {
@@ -217,11 +260,11 @@ a {
 }
 
 .padTop {
-	padding-top: 25px;
+	padding-top: 15px;
 }
 
 .social-icon-footer {
-	padding-bottom: 60px;
+	padding-bottom: 40px;
 }
 
 .social-icon-footer li a {
