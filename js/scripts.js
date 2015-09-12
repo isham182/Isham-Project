@@ -31,6 +31,12 @@ function stickIt() {
   }
 }
 
+$(function() {
+  $("#close-modal").click(function() {
+    $("#modal-window").modal("hide");
+  });
+});
+
 
 
 

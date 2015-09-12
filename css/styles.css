@@ -1,5 +1,5 @@
 body {
-	background-color: #E8E8E8;
+	background-color: #F6F6F6;
 	font-family: Arial, Helvetica, sans-serif;
 	display: block;
 	margin: 0 auto;
@@ -41,9 +41,7 @@ h1 {
 	border-bottom: 2px solid #DDA703;
 }
 
-.titleMinor {
-	font-weight: 200;
-}
+.titleMinor {font-weight: 200;}
 
 .titleChange {
 	color: #22BCF0;
@@ -74,13 +72,9 @@ a {
     -webkit-transition: all 0.3s ease-in-out 0s;
 }
 
-.padNav li a:active {
-	color: #DDA703;
-}
+.padNav li a:active {color: #DDA703;}
 
-.nav li a.current {
-	color: #DDA703;
-}
+.nav li a.current {color: #DDA703;}
 
 p a {
 	list-style: none outside none;
@@ -96,13 +90,9 @@ p a {
 		padding: 0;
 }
 
-.social-icon {
-	padding-bottom: 15%
-}
+.social-icon {padding-bottom: 15%;}
 
-.fa-padding {
-	margin-left: 30px;
-}
+.fa-padding {margin-left: 30px;}
 
 .social-icon li a {
 	color: #FFFFFF;
@@ -110,9 +100,7 @@ p a {
 	
 }
 
-.social-icon li a:hover {
-	color: #DDA703;
-}
+.social-icon li a:hover {color: #DDA703;}
 
 .padNav {
 	display: -webkit-inline-box;
@@ -131,9 +119,7 @@ p a {
 	text-decoration: none;
 }
 
-.padNav li a:hover {
-	color: #DDA703;
-}
+.padNav li a:hover {color: #DDA703;}
 .scroll-nav {
 	clear: both;
     float: left;
@@ -156,13 +142,9 @@ p a {
     padding-top: 3px;
 }
 
-nav {
-	z-index: 500;
-}
+nav {z-index: 500;}
 
-.nav-placeholder{
-	margin: 0 0 40px 0;
-}
+.nav-placeholder{margin: 0 0 40px 0;}
 
 .fixed {
 	position: fixed;
@@ -180,13 +162,9 @@ nav {
     font-size: 1.7em;	
 }
 
-.padFaFixed li a {
-	font-size: 24px;
-}
+.padFaFixed li a {font-size: 24px;}
 
-.padFaFixed li a:hover {
-	color: #DDA703;
-}
+.padFaFixed li a:hover {color: #DDA703;}
 
 .padNavFixed {
 	display: -webkit-inline-box;
@@ -206,31 +184,40 @@ nav {
 	font-size: 24px;
 }
 
-.padNavFixed li a:hover {
-	color: #DDA703;
-}
+.padNavFixed li a:hover {color: #DDA703;}
 
-.left {
-	float: left;
-}
+.left {float: left;}
 
-.leftPad {
-	float: left;
-}
+.leftPad {float: left;}
 
-.leftPad li a {
+.leftPad li a {color: black;}
+
+.left li a {color: black;}
+
+.img-hand {cursor: pointer;}
+
+.projects h3 {padding-bottom: 20px;}
+
+.projects h3 a {
+	list-style: none outside none;
+	text-decoration: none;
 	color: black;
+	font-size: 1.0em;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
 }
 
-.left li a {
+.projects h3 a:hover {color: #DDA703;}
+
+.modal-open .modal, a:focus{
+	/* Keeps outline from showing around href after you close the modal*/
+    outline:none!important;
+}
+
+.modal-footer a {
 	color: black;
-}
-
-.img-hand {
-	cursor: pointer;
-}
-
-.projects p a {
+	float: left;
+	margin-top: 10px;
 	list-style: none outside none;
 	text-decoration: none;
 	font-size: 1.2em;
@@ -238,9 +225,7 @@ nav {
 	-webkit-transition: all 0.3s ease-in-out 0s;
 }
 
-.projects p a:hover {
-	color: #DDA703;	
-}
+.modal-footer a:hover {color: #DDA703;}
 
 .foot {
 	background-color: #2F2F2F;
@@ -250,33 +235,23 @@ nav {
 	color: #FFFFFF;
 }
 
-.featured {
-	padding-top: 30px;
-}
+.featured {padding-top: 30px;}
 
 .foot div p {
 	margin: 15px;
 	padding: 0;
 }
 
-.padTop {
-	padding-top: 15px;
-}
+.padTop {padding-top: 15px;}
 
-.social-icon-footer {
-	padding-bottom: 40px;
-}
+.social-icon-footer {padding-bottom: 40px;}
 
 .social-icon-footer li a {
 	color: #FFFFFF;
 	font-size: 32px;	
 }
 
-.social-icon-footer li a:hover {
-	color: #DDA703;
-}
+.social-icon-footer li a:hover {color: #DDA703;}
 
-.copyright {
-	text-align: center;
-}
+.copyright {text-align: center;}
 
